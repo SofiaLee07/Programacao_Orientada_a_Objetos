@@ -2,9 +2,10 @@
 Implemente ua abstração de umm carro. O tanque de combustı́vel do carro armazena no máximo 50 
 litros de gasolina. O carro consome 15 km/litro. Deve ser possı́vel:
 
-Abastecer o carro com uma certa quantidade de gasolina;
-Mover o carro em uma determinada distância (medida em km);
-Retornar a quantidade de combustı́vel e a distância total percorrida.
+* Abastecer o carro com uma certa quantidade de gasolina;
+* Mover o carro em uma determinada distância (medida em km);
+* Retornar a quantidade de combustı́vel e a distância total percorrida.
+
 Elabore um programa para realizar o teste da sua abstração. Lembre-se de realizar um teste 
 completo da sua interface e considerar possíveis inconsistências de estado (ex. um carro não 
 pode percorrer uma certa distância se ele não possuir combustível suficiente para isto).*/
@@ -37,3 +38,4 @@ public:
                   << " km | Distancia total: " << this->getDistanciaTotal() << " km" << std::endl;
     }
 };
+
