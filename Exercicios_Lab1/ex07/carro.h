@@ -1,4 +1,4 @@
-/*Exercício 07
+/*Exercicio 07
 Implemente ua abstração de umm carro. O tanque de combustı́vel do carro armazena no máximo 50 
 litros de gasolina. O carro consome 15 km/litro. Deve ser possı́vel:
 
@@ -38,4 +38,5 @@ public:
                   << " km | Distancia total: " << this->getDistanciaTotal() << " km" << std::endl;
     }
 };
+
 
