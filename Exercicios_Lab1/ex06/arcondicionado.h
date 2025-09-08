@@ -1,4 +1,4 @@
-/* Exercicio 6
+/* Exercicio 06
 Implemente a abstração de um equipamento de ar condicionado, com os seguintes requisitos:
 
 * O condicionador possui 10 potências diferentes.
@@ -39,4 +39,5 @@ public:
                   << std::endl;
     }
 };
+
 
