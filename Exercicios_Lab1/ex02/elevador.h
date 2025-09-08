@@ -1,4 +1,4 @@
-/*
+/*Exercicio 2
 Crie uma classe denominada Elevador para armazenar as informacoes de um elevador dentro de um predio.
 A classe deve armazenar o andar atual (0 = terreo), total de andares no predio, excluindo o terreo,
 capacidade do elevador, e quantas pessoas que estao presentes nele.
@@ -47,4 +47,5 @@ public:
     inline int GetTotalAndares() const { return this->totalAndares; };
     inline int GetMaxCapacidade() const { return this->maxCapacidade; };
     inline int GetPessoasDentro() const { return this->pessoasDentro; };
+
 };
