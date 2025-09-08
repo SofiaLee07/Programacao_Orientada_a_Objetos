@@ -1,5 +1,4 @@
-/*
-Exercício 03
+/* Exercício 03
 Crie uma classe em C++ chamada Relogio para armazenar um horário, 
 composto por hora, minuto e segundo. A classe deve representar esses componentes de horário e 
 deve apresentar os métodos descritos a seguir:
@@ -32,4 +31,5 @@ public:
 	void setHorario(int hora, int min, int seg);
 	void getHorario(int& hora, int& min, int& seg) const;
 	void tick();
+
 };
