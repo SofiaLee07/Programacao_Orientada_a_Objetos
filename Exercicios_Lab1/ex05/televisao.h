@@ -1,4 +1,5 @@
-/*Implemente uma classe para abstrair uma televisão. A televisão tem um controle de volume do 
+/* Exercicio 5
+Implemente uma classe para abstrair uma televisão. A televisão tem um controle de volume do 
 som e um controle de seleção de canal.
 
 A classe implementada deve atender aos seguintes requisitos mínimos:
@@ -53,3 +54,4 @@ public:
                   << ", volume=" << this->getVolume() << "]" << std::endl;
     }
 };
+
